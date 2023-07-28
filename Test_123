@@ -4,3 +4,11 @@ git add *Dosya                    *Commitlenmiş hale dosyayı hazırlıyoruz.
 git commit -m "yorum yaz"         
 git push -u origin main           *Mainleri eşleştiriyor.
 git branch -a                     *Mainleri görmeni sağlar.
+git fetch                         *Remote mainde değişiklik olursa Lokal maine çekmek 
+                                    için ancak lokal dosyada değişiklik yapmaz lokal 
+                                    içerisindeki remote kısmına yazar.
+git pull                          *Remote maindeki değişikliği lokal maine çeker (Fetch 
+                                    çalıştırmadan Pull çalıştırırsan sistem otomatik Fetchi
+                                    çalıştırıyor.)
+
+
