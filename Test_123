@@ -1,18 +1,21 @@
-code .                             *Klasörün içerisinde VsCode çalıştırır.
-git status                         *Dosyada değişiklik var mı kontrolünü sağlar.
-git add *Dosya                     *Commitlenmiş hale dosyayı hazırlıyoruz.
-git commit -m "yorum yaz"          
-git push -u origin main            *Mainleri eşleştiriyor.
-git branch -a                      *Mainleri görmeni sağlar.
-git fetch                          *Remote mainde değişiklik olursa Lokal maine çekmek 
-                                    için ancak lokal dosyada değişiklik yapmaz lokal 
-                                    içerisindeki remote kısmına yazar.
-git pull                           *Remote maindeki değişikliği lokal maine çeker (Fetch 
-                                    çalıştırmadan Pull çalıştırırsan sistem otomatik Fetchi
-                                    çalıştırıyor.)
-git checkout                       *Branchler arasında geçiş yapmak için kullanılıyor.
-                                     (-b komutu ile yeni branch oluşturabiliyorsun.)
-git chechkout -b yeni_Branch       *yeni_Branch isminde branch oluşturdu.
-
-                        
-.
+code .                                  *Klasörün içerisinde VsCode çalıştırır.
+git status                              *Dosyada değişiklik var mı kontrolünü sağlar.
+git add *Dosya                          *Commitlenmiş hale dosyayı hazırlıyoruz.
+git commit -m "yorum yaz"               
+git push                                *Branchleri eşleştiriyor.
+git branch -a                           *Mainleri görmeni sağlar.
+git fetch                               *Remote mainde değişiklik olursa Lokal maine çekmek 
+                                         için ancak lokal dosyada değişiklik yapmaz lokal 
+                                         içerisindeki remote kısmına yazar.
+git pull                                *Remote maindeki değişikliği lokal maine çeker (Fetch 
+                                         çalıştırmadan Pull çalıştırırsan sistem otomatik Fetchi
+                                         çalıştırıyor.)
+git checkout                            *Branchler arasında geçiş yapmak için kullanılıyor.
+                                           (-b komutu ile yeni branch oluşturabiliyorsun.)
+git chechkout -b yeni_Branch            *yeni_Branch isminde branch oluşturdu.
+git push -u origin main yeni_Branch     *Remote tarafta yeni bir branch oluşturdu.(lokal ve remote
+                                         tarafta brachlerin ismi aynı olmalı hata alırsın yoksa.)
+git merge origin/yeni_Branch            *Oluşturulan yeni_branci Main branchi ile eşleştirir yapılan 
+                                         değişiklikleri tekrardan ekleyip commit eklemeye gerek kalmadan
+                                         yeni_branchteki commitleri aldı. sadece push yapmak kaldı.
+ 
