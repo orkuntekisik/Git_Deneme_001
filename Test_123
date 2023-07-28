@@ -1,1 +1,6 @@
-print'Hello World'
+code .                            *Klasörün içerisinde VsCode çalıştırır.
+git status                        *Dosyada değişiklik var mı kontrolünü sağlar.
+git add *Dosya                    *Commitlenmiş hale dosyayı hazırlıyoruz.
+git commit -m "yorum yaz"         
+git push -u origin main           *Mainleri eşleştiriyor.
+git branch -a                     *Mainleri görmeni sağlar.
